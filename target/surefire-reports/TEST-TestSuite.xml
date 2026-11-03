@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.781" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\app\Workspace\LebyyAPI\target\test-classes;D:\app\Workspace\LebyyAPI\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\6.3.0\rest-assured-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\6.3.0\json-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\5.0.8\groovy-json-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\5.0.8\groovy-5.0.8.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\6.3.0\rest-assured-common-6.3.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\6.3.0\xml-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\5.0.8\groovy-xml-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire1889445870151924758\surefirebooter-20261103221901846_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire1889445870151924758 2026-11-03T22-19-01_315-jvmRun1 surefire-20261103221901846_1tmp surefire_0-20261103221901846_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\app\Workspace\LebyyAPI\target\test-classes;D:\app\Workspace\LebyyAPI\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\6.3.0\rest-assured-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\6.3.0\json-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\5.0.8\groovy-json-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\5.0.8\groovy-5.0.8.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\6.3.0\rest-assured-common-6.3.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\6.3.0\xml-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\5.0.8\groovy-xml-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\app\Workspace\LebyyAPI"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire1889445870151924758\surefirebooter-20261103221901846_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.5+8-LTS"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.5+8"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.5"/>
+    <property name="user.dir" value="D:\app\Workspace\LebyyAPI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\app\eclipse\MVN\apache-maven-3.9.9\bin;C:\Users\Lenovo\AppData\Local\Programs\Python\Python315\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python315\;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.5+8-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testGetAllLearners" classname="com.Lebby.Learners" time="6.493">
+    <system-out><![CDATA[*********** Welcome In Testing World**********
+*********** Welcome In Automation Testing World**********
+*********** Started:Test Case: Get All Learners **********
+{
+    "count": 5,
+    "data": [
+        {
+            "id": 1,
+            "name": "Priya Sharma",
+            "email": "priya.sharma@example.com",
+            "courseId": 1,
+            "status": "enrolled",
+            "progress": 42
+        },
+        {
+            "id": 2,
+            "name": "Ravi Teja",
+            "email": "ravi.teja@example.com",
+            "courseId": 4,
+            "status": "enrolled",
+            "progress": 78
+        },
+        {
+            "id": 3,
+            "name": "Ananya Reddy",
+            "email": "ananya.reddy@example.com",
+            "courseId": 2,
+            "status": "completed",
+            "progress": 100
+        },
+        {
+            "id": 4,
+            "name": "Ashrar Khan2",
+            "email": "ashrarakhan2@gmail.com",
+            "courseId": 20,
+            "status": "enrolled",
+            "progress": 2
+        },
+        {
+            "id": 5,
+            "name": "Ashrar Khan2",
+            "email": "ashrarakhan2@gmail.com",
+            "courseId": 20,
+            "status": "enrolled",
+            "progress": 2
+        }
+    ]
+}
+*********** Ended:Test Case: Get All Learners **********
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+# Created at 2026-11-03T22:14:46.662
+Boot Manifest-JAR contains absolute paths in classpath 'D:\app\Workspace\LebyyAPI\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
