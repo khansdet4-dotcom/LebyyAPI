@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         maven 'Maven3'   // Manage Jenkins > Tools mein jo naam hai wahi likho
-        jdk 'JDK8'       // project JavaSE-1.8 hai
+        jdk 'JDK25'       // project JavaSE-1.8 hai
     }
 
     parameters {
