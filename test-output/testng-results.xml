@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-05T15:35:22 IST" name="Suite" finished-at="2026-11-05T15:35:42 IST" duration-ms="20570">
+    <groups>
+    </groups>
+    <test started-at="2026-11-05T15:35:22 IST" name="Test" finished-at="2026-11-05T15:35:42 IST" duration-ms="20570">
+      <class name="com.Lebby.Learners">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:22 IST" name="beforeSuite" finished-at="2026-11-05T15:35:22 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:22 IST" name="setup" finished-at="2026-11-05T15:35:22 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:22 IST" name="beforeMethod" finished-at="2026-11-05T15:35:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetAllLearners()[pri:1, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:22 IST" name="GetAllLearners" finished-at="2026-11-05T15:35:27 IST" duration-ms="4743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllLearners -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:27 IST" name="afterMethod" finished-at="2026-11-05T15:35:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:27 IST" name="beforeMethod" finished-at="2026-11-05T15:35:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateLearner()[pri:2, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:27 IST" name="CreateLearner" finished-at="2026-11-05T15:35:31 IST" duration-ms="3678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLearner -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:31 IST" name="afterMethod" finished-at="2026-11-05T15:35:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:31 IST" name="beforeMethod" finished-at="2026-11-05T15:35:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getLearnersById()[pri:3, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:31 IST" name="getLearnersById" finished-at="2026-11-05T15:35:34 IST" depends-on-methods="com.Lebby.Learners.CreateLearner" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLearnersById -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:34 IST" name="afterMethod" finished-at="2026-11-05T15:35:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:34 IST" name="beforeMethod" finished-at="2026-11-05T15:35:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateLearner()[pri:4, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:34 IST" name="updateLearner" finished-at="2026-11-05T15:35:36 IST" depends-on-methods="com.Lebby.Learners.CreateLearner" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateLearner -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:36 IST" name="afterMethod" finished-at="2026-11-05T15:35:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:36 IST" name="beforeMethod" finished-at="2026-11-05T15:35:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="partialUpdateLerner()[pri:5, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:36 IST" name="partialUpdateLerner" finished-at="2026-11-05T15:35:40 IST" depends-on-methods="com.Lebby.Learners.CreateLearner" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUpdateLerner -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:40 IST" name="afterMethod" finished-at="2026-11-05T15:35:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:40 IST" name="beforeMethod" finished-at="2026-11-05T15:35:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteLearner()[pri:6, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:40 IST" name="deleteLearner" finished-at="2026-11-05T15:35:42 IST" depends-on-methods="com.Lebby.Learners.CreateLearner" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLearner -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:42 IST" name="afterMethod" finished-at="2026-11-05T15:35:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:42 IST" name="tearDown" finished-at="2026-11-05T15:35:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Lebby.Learners@188715b5]" started-at="2026-11-05T15:35:43 IST" name="afterSuite" finished-at="2026-11-05T15:35:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Lebby.Learners -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

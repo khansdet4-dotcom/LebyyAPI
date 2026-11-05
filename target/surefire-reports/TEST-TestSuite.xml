@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="76.183" tests="6" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="21"/>
+    <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\JavaProject\LebyyAPI\target\test-classes;D:\JavaProject\LebyyAPI\target\classes;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured\6.3.0\rest-assured-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-path\6.3.0\json-path-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-json\5.0.8\groovy-json-5.0.8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy\5.0.8\groovy-5.0.8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured-common\6.3.0\rest-assured-common-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\xml-path\6.3.0\xml-path-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-xml\5.0.8\groovy-xml-5.0.8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="D:\app\Workspace\LebbyAPI_11012026\LebyyAPI\target\test-classes;D:\app\Workspace\LebbyAPI_11012026\LebyyAPI\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\6.3.0\rest-assured-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\6.3.0\json-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\5.0.8\groovy-json-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\5.0.8\groovy-5.0.8.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\6.3.0\rest-assured-common-6.3.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\6.3.0\xml-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\5.0.8\groovy-xml-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\tools\jackson\core\jackson-databind\3.2.4\jackson-databind-3.2.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\Lenovo\.m2\repository\tools\jackson\core\jackson-core\3.2.4\jackson-core-3.2.4.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="21"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire4776209480091375714\surefirebooter-20261103233637673_3.jar C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire4776209480091375714 2026-11-03T23-36-37_564-jvmRun1 surefire-20261103233637673_1tmp surefire_0-20261103233637673_2tmp"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2421183172543932405\surefirebooter-20261105163534079_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire2421183172543932405 2026-11-05T16-35-33_807-jvmRun1 surefire-20261105163534079_1tmp surefire_0-20261105163534079_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\JavaProject\LebyyAPI\target\test-classes;D:\JavaProject\LebyyAPI\target\classes;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured\6.3.0\rest-assured-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-path\6.3.0\json-path-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-json\5.0.8\groovy-json-5.0.8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy\5.0.8\groovy-5.0.8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured-common\6.3.0\rest-assured-common-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\xml-path\6.3.0\xml-path-6.3.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-xml\5.0.8\groovy-xml-5.0.8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="surefire.test.class.path" value="D:\app\Workspace\LebbyAPI_11012026\LebyyAPI\target\test-classes;D:\app\Workspace\LebbyAPI_11012026\LebyyAPI\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\6.3.0\rest-assured-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\6.3.0\json-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\5.0.8\groovy-json-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\5.0.8\groovy-5.0.8.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\6.3.0\rest-assured-common-6.3.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\6.3.0\xml-path-6.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\5.0.8\groovy-xml-5.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\tools\jackson\core\jackson-databind\3.2.4\jackson-databind-3.2.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\Lenovo\.m2\repository\tools\jackson\core\jackson-core\3.2.4\jackson-core-3.2.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\SHAMBHU KUMAR"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2026-08-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.12.1"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\JavaProject\LebyyAPI"/>
-    <property name="style.color" value="always"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="basedir" value="D:\app\Workspace\LebbyAPI_11012026\LebyyAPI"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire4776209480091375714\surefirebooter-20261103233637673_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2421183172543932405\surefirebooter-20261105163534079_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="21.0.12.1+1-LTS-4"/>
-    <property name="user.name" value="SHAMBHU KUMAR"/>
+    <property name="java.runtime.version" value="25.0.5+8-LTS"/>
+    <property name="user.name" value="Lenovo"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\SHAMBHU KUMAR\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\SHAMBH~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="21.0.12.1"/>
-    <property name="user.dir" value="D:\JavaProject\LebyyAPI"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.5+8"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.5"/>
+    <property name="user.dir" value="D:\app\Workspace\LebbyAPI_11012026\LebyyAPI"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/SHAMBHU KUMAR/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin/server;C:/Users/SHAMBHU KUMAR/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin;C:\Python315\Scripts\;C:\Python315\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\allure-2.46.1\bin;C:\apache-maven-3.10.0\bin;C:\Program Files\Java\jdk-25.0.5.0.2\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\Users\SHAMBHU KUMAR\AppData\Local\Programs\Python\Launcher\;C:\Users\SHAMBHU KUMAR\AppData\Local\Microsoft\WindowsApps;;C:\Users\SHAMBHU KUMAR\.local\bin;C:\Users\SHAMBHU KUMAR\AppData\Roaming\npm;C:\WINDOWS\System32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\app\eclipse\MVN\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Programs\Python\Python315\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python315\;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="21.0.12.1+1-LTS-4"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.5+8-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="65.0"/>
+    <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testGetAllLearners" classname="com.Lebby.Learners" time="2.646">
-    <system-out><![CDATA[*********** Welcome In Testing World**********
-*********** Welcome In Automation Testing World**********
-*********** Started:Test Case: Get All Learners **********
+  <testcase name="GetAllLearners" classname="com.Lebby.Learners" time="11.09">
+    <system-out><![CDATA[@BeforeSuite: suite start
+@BeforeMethod: test start
 {
-    "count": 5,
+    "count": 7,
     "data": [
         {
             "id": 1,
@@ -91,28 +91,99 @@
             "progress": 100
         },
         {
-            "id": 4,
-            "name": "Ashrar Khan2",
-            "email": "ashrarakhan2@gmail.com",
-            "courseId": 20,
+            "id": 5,
+            "name": "Ashrar Ali",
+            "email": "Ashrar.Al@gmailcom",
+            "courseId": 5,
             "status": "enrolled",
-            "progress": 2
+            "progress": 1
         },
         {
-            "id": 5,
-            "name": "Ashrar Khan2",
-            "email": "ashrarakhan2@gmail.com",
-            "courseId": 20,
+            "id": 6,
+            "name": "Ashrar Ali",
+            "email": "Ashrar.Al@gmailcom",
+            "courseId": 5,
             "status": "enrolled",
-            "progress": 2
+            "progress": 1
+        },
+        {
+            "id": 7,
+            "name": "Ashrar Ali",
+            "email": "Ashrar.Al@gmailcom",
+            "courseId": 5,
+            "status": "enrolled",
+            "progress": 1
+        },
+        {
+            "id": 8,
+            "name": "Ashrar Ali",
+            "email": "Ashrar.Al@gmailcom",
+            "courseId": 5,
+            "status": "enrolled",
+            "progress": 1
         }
     ]
 }
-*********** Ended:Test Case: Get All Learners **********
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
+  </testcase>
+  <testcase name="CreateLearner" classname="com.Lebby.Learners" time="6.503">
+    <system-out><![CDATA[@AfterMethod: test end
+@BeforeMethod: test start
+]]></system-out>
+  </testcase>
+  <testcase name="getLearnersById" classname="com.Lebby.Learners" time="20.746">
+    <system-out><![CDATA[@AfterMethod: test end
+@BeforeMethod: test start
+HTTP/1.1 200 OK
+Date: Thu, 05 Nov 2026 11:06:13 GMT
+Server: nginx/1.29.8
+Content-Type: application/json; charset=utf-8
+Content-Length: 114
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS
+Access-Control-Allow-Headers: Authorization, Content-Type
+Cache-Control: no-store
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Server-Cache: true
+X-Proxy-Cache: MISS
+
+{
+    "id": 9,
+    "name": "Ashrar Ali",
+    "email": "Ashrar.Al@gmailcom",
+    "courseId": 5,
+    "status": "enrolled",
+    "progress": 1
+}
+]]></system-out>
+    <system-err><![CDATA[Nov 05, 2026 4:35:59 PM org.apache.http.impl.client.DefaultHttpClient tryExecute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://lebyy.com:443: The target server failed to respond
+Nov 05, 2026 4:35:59 PM org.apache.http.impl.client.DefaultHttpClient tryExecute
+INFO: Retrying request to {s}->https://lebyy.com:443
+]]></system-err>
+  </testcase>
+  <testcase name="updateLearner" classname="com.Lebby.Learners" time="8.977">
+    <system-out><![CDATA[@AfterMethod: test end
+@BeforeMethod: test start
+]]></system-out>
+  </testcase>
+  <testcase name="partialUpdateLerner" classname="com.Lebby.Learners" time="8.149">
+    <system-out><![CDATA[@AfterMethod: test end
+@BeforeMethod: test start
+]]></system-out>
+  </testcase>
+  <testcase name="deleteLearner" classname="com.Lebby.Learners" time="19.204">
+    <system-out><![CDATA[@AfterMethod: test end
+@BeforeMethod: test start
+]]></system-out>
   </testcase>
 </testsuite>
